@@ -1,0 +1,63 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+/* Issue card's styling */
+.card-img{
+  height:100%;
+}
+/* Issue card's styling */
+.issueCard{
+  margin-right:20px;
+  margin-left:20px;
+  margin-top:30px;
+  border-radius: 5px;
+}
+
+/* Issue card's styling  for tags*/
+.badge{
+  /* border-radius:10px; */
+  margin-right:10px;
+}
+/* Issue card's styling */
+.card{
+  width:95%;
+  float:'right';
+
+}
+/*map page card*/
+.card-img-top{
+  height:400px;
+}
+small{
+  font-size:17px ;
+}
+
+.filterForm{
+  background: #BDBDBD;
+}
+
+
+.filterForm > input[type="radio"]{
+  margin-right:6%;
+  margin-top:10px;
+  -webkit-appearance: checkbox; /* Chrome, Safari, Opera */
+  -moz-appearance: checkbox;    /* Firefox */
+  -ms-appearance: checkbox; 
+}
+
+.filterForm > *{
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+
+label{
+      
+  margin-left:3%;
+  margin-Right:20px;
+}
